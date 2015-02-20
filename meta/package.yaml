@@ -1,0 +1,8 @@
+name: erle-apm-copter.erle
+vendor: Erle Robotics <contact@erlerobot.com>
+icon: meta/erle-small.png
+version: 1.0
+binaries:
+ - name: src/ArduCopter.elf
+ - name: src/apm4-startup.sh
+ - name: src/service/apm.service

@@ -1,0 +1,10 @@
+[Unit]
+Description=APM:Copter autopilot launch service
+After=cloud-final.service
+
+[Service]
+#Type=oneshot
+ExecStart=/apps/erle-apm-copter.erle/current/src/apm4-startup.sh
+
+[Install]
+WantedBy=multi-user.target
